@@ -3,10 +3,10 @@
 	
 	class QueryDB{
 		private $query, $parametros, $formato, $mysqli, $result;
-		const HOST_NAME = 'localhost';
-		const USER_NAME = 'root';
+		const HOST_NAME = '';
+		const USER_NAME = '';
 		const PASSWORD = '';
-		const DATABASE = 'test';
+		const DATABASE = '';
 		
 		public function __construct($query, $formato, $parametros){
 			$this->query = $query;
