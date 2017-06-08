@@ -1,0 +1,1 @@
+Error de sintaxis en query: SELECT * FROM `MENSAJES` WHEWRE `TIPO` = ?

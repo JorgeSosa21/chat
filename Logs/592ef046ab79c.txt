@@ -1,0 +1,1 @@
+Error al conectarse con la base de datos: Access denied for user 'root'@'localhost' (using password: YES)

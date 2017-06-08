@@ -1,0 +1,1 @@
+Error al conectarse con la base de datos: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.

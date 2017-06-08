@@ -1,0 +1,155 @@
+html, body{
+	width: 98%;
+	height: 98%;
+	font-family: monospace;
+}
+.contactos{
+	width: 250px;
+	height: 90%;
+	float: left;
+	border: 1px solid #555;
+}
+.cabecera{
+	height: 30px;
+	background: #96ab8c;
+	position: relative;
+}
+.cabecera span{
+	color: #FFF;
+	font-size: 15px;
+	position: absolute;
+	top: 5px;
+	left: 35%;
+}
+.contacto{
+	border-bottom: 1px solid #555;
+	height: 60px;
+	cursor: pointer;
+}
+.contacto:hover{
+	background: #dbf8ff;
+}
+.img-perfil{
+	border-radius: 100%;
+	background: #FFF;
+	float: left;
+	width: 23%;
+	height: 90%;
+	margin-top: 2px;
+	margin-left: 5px;
+	background: #999;
+}
+.nombre-contacto, .ultimo-msg{
+	width: 60%;
+	height: 50%;
+	float: left;
+	margin-left: 9px;
+	position: relative;
+}
+.nombre-contacto span{
+	top: 40%;
+	position: absolute;
+	font-size: 15px;
+}
+.ultimo-msg span{
+	font-size: 11px;
+	top: 5px;
+	position: absolute;
+	color: #108802;
+}
+.escribiendo{
+	color: #9fd486;
+}
+.notificacion{
+	border-radius: 100%;
+	width: 23px;
+	height: 23px;
+	background: #9fd486;
+	float: left;
+	color: #FFF;
+	position: relative;
+}
+.notificacion span{
+	top: 3px;
+	position: absolute;
+}
+.conversacion{
+	width: 70%;
+	height: 90%;
+	border-top: 1px solid #555;
+	border-right: 1px solid #555;
+	border-bottom: 1px solid #555;
+	float: left;
+	position: relative;
+	background: #dbf8ff;
+}
+#txtMsj{
+	width: 90%;
+	height: 25px;
+	border-radius: 10px;
+	border: 1px solid #555;
+	float: left;
+	box-shadow: 4px 2px 18px #AAA;
+	margin-left: 15px;
+	decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#envMsg{
+	border-radius: 100%;
+	height: 40px;
+	width: 40px;
+	background: #96ab8c;
+	float: left;
+	cursor: pointer;
+	box-shadow: 4px 2px 18px #76925d;
+	margin-left: 10px;
+	margin-top: -8px;
+	position: relative;
+}
+.captura{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0px;
+}
+#envMsg img{
+	width: 65%;
+	position: absolute;
+	top: 7px;
+	left: 5px;
+}
+input:focus{
+	outline: none;
+}
+.mensajes{
+	height: 85%;
+    width: 100%;
+	position: relative;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.mensaje{
+    height: 30px;
+    width: 40%;
+    background: #eae4c2;
+    border-radius: 20px 100px 0px 20px;
+    padding: 5px;
+    margin-top: 10px;
+    position: relative;
+    float: right;
+	margin-right: 10px;
+    box-shadow: 4px 2px 18px #c7c793;
+}
+.mensaje span:nth-child(2){
+	font-size: 10px;
+	color: #777;
+	right: 15px;
+	bottom: 5px;
+	position: absolute;
+}
+.renglon{
+	width: 100%;
+	height: 50px;
+	margin-bottom: 10px;
+}
