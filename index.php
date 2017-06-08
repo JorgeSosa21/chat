@@ -14,22 +14,22 @@
 			<div class="cabecera"><span>Contactos</span></div>
 			<div class="contacto" id="1" OnClick="mostrarConve(this)">
 				<div class="img-perfil"></div>
-				<div class="nombre-contacto"><span>Tu gfa</span></div>
+				<div class="nombre-contacto"><span>Martin</span></div>
 				<div class="ultimo-msg"><span><i></i></span></div>
 			</div>
 			<div class="contacto" id="2" OnClick="mostrarConve(this)">
 				<div class="img-perfil"></div>
-				<div class="nombre-contacto"><span>Tu tia</span></div>
+				<div class="nombre-contacto"><span>Fernanda</span></div>
 				<div class="ultimo-msg"><span><i></i></span></div>
 			</div>
 			<div class="contacto" id="3" OnClick="mostrarConve(this)">
 				<div class="img-perfil"></div>
-				<div class="nombre-contacto"><span>Tu prima</span></div>
+				<div class="nombre-contacto"><span>Laura</span></div>
 				<div class="ultimo-msg"><span><i></i></span></div>
 			</div>
 			<div class="contacto" id="4" OnClick="mostrarConve(this)">
 				<div class="img-perfil"></div>
-				<div class="nombre-contacto"><span>Tu hermana</span></div>
+				<div class="nombre-contacto"><span>Cesar</span></div>
 				<div class="ultimo-msg"><span><i></i></span></div>
 			</div>
 		</div>
