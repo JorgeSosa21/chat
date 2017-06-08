@@ -84,6 +84,3 @@
 		}
 	}
 	
-	/* $consulta = New QueryDB("select * from users", 0, 0);
-	echo json_encode($consulta->ejecutar()); */
-	
